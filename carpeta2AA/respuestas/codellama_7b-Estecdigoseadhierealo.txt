@@ -1,0 +1,8 @@
+﻿Sí, este código se adhiere a los principios de diseño y análisis orientados a objetos. Se pueden destacar las siguientes características:
+
+1. Encapsulamiento: Las variables y funciones están encapsuladas en la clase "MalwareAnalysis". La clase se encarga de la gestión de los datos, la eliminación de duplicados, la sustitución de valores "?" por NaN, la conversión de las columnas con tipos de datos no numéricos a números y la visualización del dataset.
+2. Abstracción: La clase "MalwareAnalysis" se enfoca en la análisis de malware, lo que significa que puede ser reutilizada para analizar diferentes conjuntos de datos de manera más fácil y rápida. Además, permite abstractear los detalles de la implementación de los algoritmos de machine learning, lo que facilita su uso y mantenimiento.
+3. Polimorfismo: La clase "MalwareAnalysis" utiliza un algoritmo de machine learning para clasificar el malware en diferentes categorías. Además, se pueden utilizar diferentes tipos de algoritmos de machine learning como el SMOTE, SelectKBest y RandomForestClassifier.
+4. Herencia: La clase "MalwareAnalysis" utiliza la herencia para extenderla con nuevos algoritmos o funciones que se pueden utilizar en la clasificación del malware.
+5. Interfaz gráfica de usuario (GUI): El código incluye una interfaz gráfica de usuario que permite a los usuarios visualizar y analizar diferentes conjuntos de datos de manera fácil y rápida. Además, la GUI permite a los usuarios interactuar con el algoritmo de machine learning y obtener resultados más visuales.
+6. Principios de diseño: El código sigue los principios de diseño orientados a objetos como la separación de preocupaciones (Separation of Concerns), la abstracción, el encapsulamiento, la herencia y el polimorfismo.

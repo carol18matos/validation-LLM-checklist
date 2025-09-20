@@ -1,0 +1,5 @@
+﻿ Sí, en este código hay números mágicos que deberían ser constantes o configuraciones. Por ejemplo:
+
+- En la línea `smote = SMOTE(random_state=42)`, el valor 42 es usado como una semilla (seed) para generar números aleatorios. Este número podría ser definido como una constante en la parte superior del código para facilitar su modificación si fuera necesario.
+- En otras partes del código, se usan valores como 10, 4, y 150 que probablemente deberían ser configuraciones ajustables para permitir una fácil adaptación del código. Por ejemplo, en `selector = SelectKBest(score_func=f_classif, k=150)`, el valor de `k` podría ser cambiado para seleccionar un número diferente de características.
+- Los valores utilizados en la visualización de gráficos como tamaños de figuras o etiquetas de ejes también podrían ser definidos como constantes. Por ejemplo, `plt.figure(figsize=(5, 5))`.

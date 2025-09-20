@@ -1,0 +1,35 @@
+﻿1. **¿El código sigue las convenciones de codificación y la guía de estilo del proyecto?**
+     - Razonamiento: El código sigue las buenas prácticas de Python en términos de espaciado, sangría y nomenclatura. Por ejemplo, se utilizan espacios alrededor de los operadores, se importan módulos al principio del script y los nombres de variables son descriptivos. Sin embargo, hay algunas inconsistencias en las importaciones como 'seaborn as sns' y 'seaborn as sbn', lo cual es una pequeña violación a las convenciones de estilo.
+     - Veredicto: No completamente, se pueden mejorar algunos detalles.
+
+  2. **¿Hay partes redundantes o innecesarias del código?**
+     - Razonamiento: El script contiene múltiples repeticiones en la aplicación de SMOTE y la validación cruzada para diferentes modelos, lo cual es una redundancia. Además, hay partes como 'df.info()' repetidas y 'print(class_distribution)' antes y después del balanceo de datos, lo que podría considerarse innecesario.
+     - Veredicto: Sí, existen partes redundantes y algunas que pueden ser eliminadas para hacer el código más eficiente.
+
+  3. **¿Existe código duplicado que podría refactorizarse en una función/método reutilizable?**
+     - Razonamiento: Sí, la validación cruzada y el ajuste de los modelos están siendo realizados múltiples veces para diferentes clasificadores. Esto puede ser refactorizado en una función que tome un clasificador como parámetro y devuelva las puntuaciones de validación cruzada, lo que haría el código más limpio y modular.
+     - Veredicto: Sí, existe código duplicado que puede ser refactorizado para mejorar la organización y reutilización.
+
+  4. **¿Existen números o cadenas mágicos que deberían ser constantes o configuraciones?**
+     - Razonamiento: El script contiene algunos valores numéricos como '150' en la selección de características y '4' en el clasificador KNN. Estos números mágicos pueden ser difíciles de entender sin contexto y podrían ser configurados como constantes al principio del script para mejorar la mantenibilidad y la claridad del código.
+     - Veredicto: Sí, existen algunas cadenas y números mágicos que deberían ser definidos como constantes o configuraciones.
+
+  5. **¿Las clases, módulos y funciones están bien organizados y tienen el tamaño apropiado?**
+     - Razonamiento: Dado que se trata de un script en lugar de una aplicación orientada a objetos, la pregunta no es completamente relevante. Sin embargo, el código podría ser mejor organizado al dividirlo en funciones o módulos para cada parte del proceso de análisis y modelado de datos.
+     - Veredicto: No completamente aplicable, pero sí puede haber una mejora en la modularidad del código.
+
+  6. **¿Se utilizan los patrones de diseño de forma apropiada y consistente?**
+     - Razonamiento: Sin un análisis más detallado del contexto, es difícil determinar si el código utiliza patrones de diseño de manera apropiada. Sin embargo, algunas prácticas como la separación de preocupaciones y el uso de funciones para realizar tareas específicas son buenas señales.
+     - Veredicto: No aplica completamente, pero hay elementos que sugieren un uso potencialmente apropiado de patrones de diseño.
+
+  7. **¿Existe una clara separación de preocupaciones (por ejemplo, UI, lógica empresarial, acceso a datos)?**
+     - Razonamiento: Dado que se trata de un script orientado al análisis y modelado de datos en lugar de una aplicación con interfaz de usuario, la separación de preocupaciones puede no ser tan evidente. Sin embargo, el código parece estar organizado en diferentes secciones para cada parte del proceso, lo que podría considerarse una forma de separar las preocupaciones.
+     - Veredicto: No completamente aplicable, pero hay elementos que sugieren una separación potencial de preocupaciones.
+
+  8. **¿Se consideran y gestionan todos los casos extremos?**
+     - Razonamiento: El script maneja algunas situaciones como la validación cruzada, pero no se proporciona información suficiente para determinar si se han considerado y gestionado todos los casos extremos posibles. Por ejemplo, no hay manejo de errores en la carga de datos o en el entrenamiento de modelos.
+     - Veredicto: No completamente, faltan medidas para gestionar casos extremos como errores en la entrada/salida de datos y errores durante el entrenamiento de modelos.
+
+  9. **¿Hay comentarios suficientes en el código?**
+     - Razonamiento: El código contiene algunos comentarios, pero están centrados en explicar las operaciones específicas en lugar de proporcionar una visión general del propósito y la lógica subyacente. Además, hay secciones del código que no tienen ningún comentario, lo cual puede hacer más difícil su comprensión para otros desarrolladores o usuarios.
+     - Veredicto: No completamente, el código podría beneficiarse de más comentarios explicativos.

@@ -1,0 +1,2 @@
+﻿El código proporcionado es una aplicación de línea de comandos (CLI), con interfaz grafica, usando el framework TKinter para Python y se encarga principalmente de administrar tareas pendientes o por hacer listadas en un archivo. Este software fue desarrollado como parte del proyecto final del curso "Introducción a la programación orientada a objetos" (IPOO) realizado al tiempo completo y se encuentra preparando para el examen de definitiva, sobre todo con las menciones anteriores.
+

@@ -1,0 +1,10 @@
+﻿modelo,bloque,tiempo_segundos
+codestral:latest,1,3069.403928
+codestral:latest,2,3232.0185904
+codestral:latest,3,3426.2315925
+codellama:7b,1,732.8682278
+codellama:7b,2,513.1471831
+codellama:7b,3,920.0633017
+gemma3:12b,1,2171.8759571
+gemma3:12b,2,2110.6987863
+gemma3:12b,3,2083.3228431

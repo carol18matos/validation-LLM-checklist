@@ -1,0 +1,1 @@
+﻿  No aplica. El código proporcionado es un ejemplo de cómo se podría utilizar Scikit-learn y otras librerías para resolver un problema de clasificación binaria. Sin embargo, no tiene la intención de ser una solución práctica para el problema específico mencionado en la pregunta.

@@ -1,0 +1,1 @@
+﻿ No, no parece haber código duplicado en el fragmento proporcionado que podría ser refactorizado en una función/método reutilizable. Cada bloque de código tiene su propósito específico y no se repite exactamente. Por lo tanto, la respuesta es "No".

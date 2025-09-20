@@ -1,0 +1,12 @@
+﻿ Sí. Existen suposiciones y limitaciones que deben documentarse en este código:
+
+1. El archivo "malware_dataset.csv" se asume que existe y se encuentra en la ruta especificada ("/content/drive/MyDrive/AAColab/"). Si el archivo no existe o se encuentra en una ubicación diferente, el código fallará.
+2. El código asume que los datos están limpios y adecuadamente formateados para las operaciones realizadas, como la eliminación de filas duplicadas, la conversión de tipos de datos, etc. Si los datos no cumplen con estas suposiciones, el código puede generar resultados incorrectos o fallar.
+3. El código asume que las columnas categóricas en el dataset pueden ser convertidas a valores numéricos de manera segura y significativa. Si no es así, los resultados del análisis podrían ser sesgados o incorrectos.
+4. El código asume que todos los datos son binarios (0s y 1s). Si hay otros valores posibles en el dataset, el código puede generar errores o resultados no deseados.
+5. Los modelos de aprendizaje automático utilizados (Regresión Logística, KNN, Random Forest) pueden ser sensibles a las características del dataset y requerir un ajuste fino para obtener los mejores resultados. El código proporcionado no incluye dicho ajuste.
+6. El código utiliza validación cruzada con k=10, pero no se especifica la métrica utilizada para evaluar el desempeño del modelo. Esto podría llevar a interpretaciones incorrectas de los resultados.
+7. La selección de características realizada (SelectKBest) puede ser sensible al tipo de datos y relaciones en el dataset. Si las suposiciones subyacentes no se cumplen, la selección de características podría ser ineficaz o incluso perjudicial para el rendimiento del modelo.
+8. El código utiliza SMOTE para manejar el desbalance de clases en los datos de entrenamiento. Es importante tener en cuenta que el uso de técnicas de sobremuestreo puede aumentar la variabilidad y la complejidad del modelo, y puede no ser adecuado en todos los casos.
+9. El código utiliza una semilla aleatoria (random_state) para dividir los datos en conjuntos de entrenamiento y prueba, y para aplicar SMOTE. Esto es útil para la reproducibilidad de resultados, pero si se cambia la semilla aleatoria, los resultados pueden variar significativamente.
+10. El código no incluye ninguna forma de manejo de errores o excepciones, lo que puede hacer que el diagnóstico y corrección de problemas sea más difícil en caso de fallos del programa.

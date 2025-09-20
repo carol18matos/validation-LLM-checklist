@@ -1,0 +1,10 @@
+﻿ Sí, el código se adhiere a los principios de diseño y análisis orientados a objetos en varias partes:
+
+1. Modularidad: El código está estructurado en bloques lógicos que realizan tareas específicas, como la carga del dataset, el preprocesamiento de datos y la aplicación de algoritmos de machine learning.
+2. Abstracción: Se utilizan funciones y métodos proporcionados por bibliotecas como pandas, sklearn y seaborn para realizar tareas complejas como la lectura del dataset, el manejo de valores faltantes o la selección de características.
+3. Encapsulación: Los datos están encapsulados dentro de objetos como DataFrames de pandas y los modelos de machine learning están encapsulados dentro de clases proporcionadas por sklearn.
+4. Reutilización de código: El código reutiliza funcionalidades existentes en las bibliotecas importadas, lo que reduce la necesidad de escribir código desde cero y facilita el mantenimiento y la evolución del software.
+5. Separación de responsabilidades: Cada parte del código tiene una responsabilidad clara. Por ejemplo, el preprocesamiento de datos se realiza en un bloque separado, la selección de características en otro y la aplicación de algoritmos de machine learning en otro distinto.
+6. Uso de buenas prácticas: El código sigue las convenciones establecidas para python, como el uso de nombres descriptivos para variables y funciones, el uso de comentarios para explicar el propósito de bloques de código y el formateo consistente del código.
+7. Documentación: El código incluye comentarios que proporcionan información sobre lo que hace cada parte del código, facilitando su comprensión a otros desarrolladores o usuarios.
+8. Escalabilidad: El código está diseñado para manejar grandes conjuntos de datos y puede ser escalado fácilmente aumentando los recursos computacionales disponibles.

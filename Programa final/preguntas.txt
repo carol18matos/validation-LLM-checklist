@@ -1,0 +1,27 @@
+¿El código es claro y comprensible?
+¿El código hace lo que se supone que debe hacer?
+¿Hay suficiente cobertura para las rutas críticas en el código?
+¿Están bien explicados los algoritmos o decisiones complejos?
+¿El código está adecuadamente comentado para mayor claridad?
+¿Existen suposiciones o limitaciones que deban documentarse?
+¿Podría un marco, API, biblioteca o servicio adicional mejorar la solución?
+¿Está el código en el nivel de abstracción correcto?
+¿El código es lo suficientemente modular?
+¿La solución propuesta está bien diseñada desde una perspectiva de usabilidad?
+¿El código sigue las convenciones de codificación y la guía de estilo del proyecto?
+¿Hay partes redundantes o innecesarias del código?
+¿Existe código duplicado que podría refactorizarse en una función/método reutilizable?
+¿Existen números o cadenas mágicos que deberían ser constantes o configuraciones?
+¿Las clases, módulos y funciones están bien organizados y tienen el tamaño apropiado?
+¿Se utilizan los patrones de diseño de forma apropiada y consistente?
+¿Existe una clara separación de preocupaciones?
+¿Se consideran y gestionan todos los casos extremos?
+¿Hay algún código muerto o comentado que deba eliminarse?
+¿Existen declaraciones de depuración o registro que deban eliminarse o ajustarse?
+¿Existen posibles vulnerabilidades de seguridad introducidas o expuestas?
+¿Existen problemas de rendimiento o cuellos de botella evidentes?
+¿Puede simplificarse esta solución?
+¿Se utiliza un marco, una API, una biblioteca o un servicio que no debería utilizarse?
+¿Este código se adhiere a los principios de diseño y análisis orientados a objetos?
+¿Se realiza correctamente el manejo de errores?
+¿Es el código comprobable?

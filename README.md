@@ -1,7 +1,6 @@
 # validation-LLM-checklist
 Evaluación de modelos de lenguaje (Codellama, Codestral y Gemma) en tareas de validación estática de código mediante checklist. Incluye informe en LaTeX, gráficos y scripts de análisis en Python.
 
-# Validación de LLMs con Checklist de Código
 
 Este repositorio contiene el trabajo de evaluación de modelos de lenguaje (Codellama, Codestral y Gemma) aplicados a la **validación estática de código** a través de una **checklist de calidad de software**.
 
